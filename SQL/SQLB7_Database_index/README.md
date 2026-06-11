@@ -1,13 +1,13 @@
-### Day 06 — Let's improve customer experience
+### Day 05 — Let's improve my SQL Query!
 
-**Персональные скидки, ограничения целостности, последовательности**
+**Индексы: типы, создание, анализ эффективности**
 
 | Задание | Описание | Ключевые навыки |
 |---------|----------|------------------|
-| ex00 | Создание таблицы person_discounts | DDL, FOREIGN KEY, PRIMARY KEY |
-| ex01 | Заполнение скидками (ROW_NUMBER для ID) | INSERT ... SELECT, оконные функции |
-| ex02 | История заказов со скидкой | JOIN с таблицей скидок |
-| ex03 | Уникальный индекс (person_id, pizzeria_id) | CREATE UNIQUE INDEX |
-| ex04 | Ограничения: NOT NULL, DEFAULT, CHECK | ALTER TABLE ADD CONSTRAINT |
-| ex05 | Комментарии к таблице и столбцам | COMMENT ON |
-| ex06 | Автоматическая генерация ID через SEQUENCE | CREATE SEQUENCE, DEFAULT nextval |
+| ex00 | B-Tree индексы для всех внешних ключей | CREATE INDEX, FOREIGN KEY |
+| ex01 | Анализ запроса с EXPLAIN ANALYZE | EXPLAIN, Index Scan |
+| ex02 | Функциональный индекс (UPPER(name)) | Функциональные индексы |
+| ex03 | Многоколоночный индекс (person_id, menu_id) | Multicolumn index, Index Only Scan |
+| ex04 | Уникальный индекс (pizzeria_id, pizza_name) | UNIQUE index |
+| ex05 | Частично уникальный индекс (только для 2022-01-01) | Partial index |
+| ex06 | Оптимизация запроса с оконной функцией | Covering index, performance |
