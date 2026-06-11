@@ -1,13 +1,8 @@
-### Day 05 — Let's improve my SQL Query!
+### Team Project — Traveling Salesman Problem
 
-**Индексы: типы, создание, анализ эффективности**
+**Классическая задача коммивояжёра на SQL с рекурсией**
 
 | Задание | Описание | Ключевые навыки |
 |---------|----------|------------------|
-| ex00 | B-Tree индексы для всех внешних ключей | CREATE INDEX, FOREIGN KEY |
-| ex01 | Анализ запроса с EXPLAIN ANALYZE | EXPLAIN, Index Scan |
-| ex02 | Функциональный индекс (UPPER(name)) | Функциональные индексы |
-| ex03 | Многоколоночный индекс (person_id, menu_id) | Multicolumn index, Index Only Scan |
-| ex04 | Уникальный индекс (pizzeria_id, pizza_name) | UNIQUE index |
-| ex05 | Частично уникальный индекс (только для 2022-01-01) | Partial index |
-| ex06 | Оптимизация запроса с оконной функцией | Covering index, performance |
+| ex00 | Поиск минимального гамильтонова цикла | Рекурсивные CTE, TSP |
+| ex01 | Поиск максимального гамильтонова цикла | Рекурсивные запросы, графы |
