@@ -56,48 +56,47 @@
 
 ## Проекты
 
-### Day 00 — Relational Data Model and SQL (https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB1_Basics)
-[Текст ссылки](https://www.example.com)
+### [Day 00 — Relational Data Model and SQL](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB1_Basics)
 **Основы SQL: подзапросы, фильтрация и форматирование данных**
 
 
-### Day 01 — Основы работы с множествами и JOIN
+### [Day 01 — Основы работы с множествами и JOIN](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB2_Retrieving_data)
 
 **UNION, EXCEPT, INTERSECT, декартово произведение и JOIN**
 
-### Day 02 — Deep diving into JOINs
+### [Day 02 — Deep diving into JOINs](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB3_Retrieving_data)
 
 **Продвинутые JOIN, CTE, generate_series, обработка пропусков**
 
-### Day 03 — Continuing to JOIN and make change in data
+### [Day 03 — Continuing to JOIN and make change in data](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB4_DML)
 
 **DML: INSERT, UPDATE, DELETE, массовые операции**
 
-### Day 04 — Snapshots, virtual tables… What is going on?
+### [Day 04 — Snapshots, virtual tables… What is going on?](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB5_Snapshots)
 
 **Представления (VIEW), материализованные представления, generate_series**
 
-### Day 05 — Let's improve my SQL Query!
+### [Day 05 — Let's improve my SQL Query!](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB6_Salesman_problem)
 
 **Индексы: типы, создание, анализ эффективности**
 
-### Day 06 — Let's improve customer experience
+### [Day 06 — Let's improve customer experience](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB7_Database_index)
 
 **Персональные скидки, ограничения целостности, последовательности**
 
-### Day 07 — Aggregated data is more informative
+### [Day 07 — Aggregated data is more informative](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB8_Integrating_features)
 
 **Агрегация, GROUP BY, оконные функции, аналитические отчеты**
 
-### Day 08 — Isolation is one of ACID properties
+### [Day 08 — Isolation is one of ACID properties](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB9_OLAP)
 
 **Транзакции, уровни изоляции, аномалии, deadlock**
 
-### Day 09 — RDBMS is not just a tables
+### [Day 09 — RDBMS is not just a tables](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB10_Isolation_levels)
 
 **Функции (SQL/PLpgSQL), триггеры, аудит данных**
 
-### Team Project — Traveling Salesman Problem
+### [Team Project — Traveling Salesman Problem](https://github.com/korleVar/pet-projects/tree/main/SQL/SQLB11_Functions_and_procs)
 
 **Классическая задача коммивояжёра на SQL с рекурсией**
 
