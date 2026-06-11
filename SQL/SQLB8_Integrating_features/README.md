@@ -1,16 +1,13 @@
-### Day 07 — Aggregated data is more informative
+### Day 06 — Let's improve customer experience
 
-**Агрегация, GROUP BY, оконные функции, аналитические отчеты**
+**Персональные скидки, ограничения целостности, последовательности**
 
 | Задание | Описание | Ключевые навыки |
 |---------|----------|------------------|
-| ex00 | Количество посещений по person_id | COUNT, GROUP BY |
-| ex01 | Топ-4 посетителей с именами | JOIN, ORDER BY, LIMIT |
-| ex02 | Топ-3 по заказам и посещениям (UNION) | UNION, ранжирование |
-| ex03 | Агрегация заказов и посещений по пиццериям | SUM, COALESCE, объединение результатов |
-| ex04 | Люди с >3 посещениями (без WHERE) | HAVING |
-| ex05 | Уникальные имена заказчиков (без GROUP BY) | DISTINCT |
-| ex06 | Статистика по пиццериям: COUNT, AVG, MAX, MIN | Агрегатные функции, ROUND |
-| ex07 | Глобальный средний рейтинг | AVG, ROUND |
-| ex08 | Заказы по адресам и пиццериям | JOIN, GROUP BY |
-| ex09 | Сравнение вычисляемой формулы со средним возрастом | CASE, CAST, вычисления |
+| ex00 | Создание таблицы person_discounts | DDL, FOREIGN KEY, PRIMARY KEY |
+| ex01 | Заполнение скидками (ROW_NUMBER для ID) | INSERT ... SELECT, оконные функции |
+| ex02 | История заказов со скидкой | JOIN с таблицей скидок |
+| ex03 | Уникальный индекс (person_id, pizzeria_id) | CREATE UNIQUE INDEX |
+| ex04 | Ограничения: NOT NULL, DEFAULT, CHECK | ALTER TABLE ADD CONSTRAINT |
+| ex05 | Комментарии к таблице и столбцам | COMMENT ON |
+| ex06 | Автоматическая генерация ID через SEQUENCE | CREATE SEQUENCE, DEFAULT nextval |
