@@ -1,14 +1,16 @@
-### Day 08 — Isolation is one of ACID properties
+### Day 07 — Aggregated data is more informative
 
-**Транзакции, уровни изоляции, аномалии, deadlock**
+**Агрегация, GROUP BY, оконные функции, аналитические отчеты**
 
 | Задание | Описание | Ключевые навыки |
 |---------|----------|------------------|
-| ex00 | READ COMMITTED: видимость изменений | BEGIN, COMMIT, параллельные сессии |
-| ex01 | Lost Update Anomaly (READ COMMITTED) | UPDATE в параллельных транзакциях |
-| ex02 | Lost Update Anomaly (REPEATABLE READ) | Уровни изоляции |
-| ex03 | Non-Repeatable Reads (READ COMMITTED) | Аномалия неповторяющегося чтения |
-| ex04 | Non-Repeatable Reads (SERIALIZABLE) | Сериализуемая изоляция |
-| ex05 | Phantom Reads (READ COMMITTED) | Аномалия фантомного чтения |
-| ex06 | Phantom Reads (REPEATABLE READ) | Защита от фантомов |
-| ex07 | Deadlock (взаимоблокировка) | Воспроизведение deadlock, разрешение |
+| ex00 | Количество посещений по person_id | COUNT, GROUP BY |
+| ex01 | Топ-4 посетителей с именами | JOIN, ORDER BY, LIMIT |
+| ex02 | Топ-3 по заказам и посещениям (UNION) | UNION, ранжирование |
+| ex03 | Агрегация заказов и посещений по пиццериям | SUM, COALESCE, объединение результатов |
+| ex04 | Люди с >3 посещениями (без WHERE) | HAVING |
+| ex05 | Уникальные имена заказчиков (без GROUP BY) | DISTINCT |
+| ex06 | Статистика по пиццериям: COUNT, AVG, MAX, MIN | Агрегатные функции, ROUND |
+| ex07 | Глобальный средний рейтинг | AVG, ROUND |
+| ex08 | Заказы по адресам и пиццериям | JOIN, GROUP BY |
+| ex09 | Сравнение вычисляемой формулы со средним возрастом | CASE, CAST, вычисления |
