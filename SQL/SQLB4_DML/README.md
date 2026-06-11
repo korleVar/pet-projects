@@ -1,4 +1,4 @@
-### 📁 Day 03 — Continuing to JOIN and make change in data
+### Day 03 — Continuing to JOIN and make change in data
 
 **DML: INSERT, UPDATE, DELETE, массовые операции**
 
