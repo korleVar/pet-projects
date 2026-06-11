@@ -1,15 +1,14 @@
-### Day 09 — RDBMS is not just a tables
+### Day 08 — Isolation is one of ACID properties
 
-**Функции (SQL/PLpgSQL), триггеры, аудит данных**
+**Транзакции, уровни изоляции, аномалии, deadlock**
 
 | Задание | Описание | Ключевые навыки |
 |---------|----------|------------------|
-| ex00 | Аудит INSERT (таблица person_audit) | Триггеры, функция-триггер, timestamp |
-| ex01 | Аудит UPDATE (сохранение OLD) | AFTER UPDATE, старые значения |
-| ex02 | Аудит DELETE | AFTER DELETE |
-| ex03 | Объединение в один универсальный триггер | IF-ELSE (TG_OP) |
-| ex04 | SQL-функции для фильтрации по полу | CREATE FUNCTION, RETURN TABLE |
-| ex05 | Параметризованная функция (pgender по умолчанию) | Параметры по умолчанию |
-| ex06 | PL/pgSQL функция для поиска пиццерий | PL/pgSQL, параметры IN |
-| ex07 | Функция минимума из массива | VARIADIC, массивы |
-| ex08 | Функция чисел Фибоначчи | Рекурсия в PL/pgSQL |
+| ex00 | READ COMMITTED: видимость изменений | BEGIN, COMMIT, параллельные сессии |
+| ex01 | Lost Update Anomaly (READ COMMITTED) | UPDATE в параллельных транзакциях |
+| ex02 | Lost Update Anomaly (REPEATABLE READ) | Уровни изоляции |
+| ex03 | Non-Repeatable Reads (READ COMMITTED) | Аномалия неповторяющегося чтения |
+| ex04 | Non-Repeatable Reads (SERIALIZABLE) | Сериализуемая изоляция |
+| ex05 | Phantom Reads (READ COMMITTED) | Аномалия фантомного чтения |
+| ex06 | Phantom Reads (REPEATABLE READ) | Защита от фантомов |
+| ex07 | Deadlock (взаимоблокировка) | Воспроизведение deadlock, разрешение |
